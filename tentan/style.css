@@ -1,0 +1,68 @@
+
+.navbar{
+    background-color: black;
+}
+.navbar a{
+    color: white;
+    
+}
+@media screen and (max-width: 600px){
+    .navbar a{
+        float: left;
+        width:100%
+    }
+}
+@media screen and (min-width: 599px){
+    .navbar a{
+        float: none;
+        width:100%
+    }
+}
+
+table{
+    margin: 5px;
+    padding: 5px;
+    border-spacing: 5px;;
+}
+table, th,td{
+   
+    border: 1px solid black;
+}
+th,td{
+    padding: 5px;
+}
+
+
+
+.father{
+    position: relative;
+    height: 200px;
+    background-color: turquoise;
+}
+.child{
+    top: 80px;
+    left: 10px;
+    position: relative;
+    background-color: green;
+    width: 150px;
+    height: 100px;
+
+}
+.child2{
+
+    position: absolute;
+    background-color: red;
+    width: 20;
+    top: 80px;
+    left: 50px;
+
+    
+
+
+}
+@media screen and (min-width: 599px){
+    nav a{
+        
+        width:100%
+    }
+}
