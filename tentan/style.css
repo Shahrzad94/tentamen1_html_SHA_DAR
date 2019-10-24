@@ -1,68 +1,50 @@
 
 .navbar{
     background-color: black;
-}
-.navbar a{
-    color: white;
     
 }
-@media screen and (max-width: 600px){
-    .navbar a{
-        float: left;
-        width:100%
-    }
+.navbar a{
+   color: white;    
 }
-@media screen and (min-width: 599px){
+@media screen and (max-width: 600px){
     .navbar a{
         float: none;
         width:100%
     }
 }
 
+
 table{
     margin: 5px;
     padding: 5px;
-    border-spacing: 5px;;
-}
-table, th,td{
-   
     border: 1px solid black;
 }
-th,td{
-    padding: 5px;
+
+td{
+    border:1px solid black;
 }
-
-
-
 .father{
-    position: relative;
-    height: 200px;
+    width:500px;
+    height:300px;
     background-color: turquoise;
 }
 .child{
-    top: 80px;
-    left: 10px;
     position: relative;
+    top: 80px;
+    left: 20px;
     background-color: green;
-    width: 150px;
+    width: 140px;
     height: 100px;
-
+    z-index: 1;
 }
 .child2{
-
-    position: absolute;
+   position: absolute;
+   text-align: center;
     background-color: red;
-    width: 20;
-    top: 80px;
-    left: 50px;
-
+    height: 120px;;
+    width:200px;
+    left:100px;
     
-
-
+    
 }
-@media screen and (min-width: 599px){
-    nav a{
-        
-        width:100%
-    }
-}
+
